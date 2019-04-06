@@ -1,19 +1,24 @@
 {
   "name": "nestgen",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "NestJS Generator",
   "main": "src/index.js",
   "scripts": {
-    "start": "node src/index.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node src/index.js"
   },
+  "repository": "https://github.com/ahmadarif/nestgen.git",
   "keywords": [
     "nestjs",
     "generator",
     "cli"
   ],
-  "author": "Ahmad Arif <ahmad.arif019@gmail.com>",
+  "author": {
+    "name": "Ahmad Arif",
+    "email": "ahmad.arif@greatdayhr.com",
+    "url": "https://github.com/ahmadarif/nestgen"
+  },
   "license": "ISC",
+  "readmeFilename": "README.md",
   "dependencies": {
     "chalk": "^2.4.2",
     "change-case": "^3.1.0",
