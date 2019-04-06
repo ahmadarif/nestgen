@@ -1,0 +1,27 @@
+{
+  "name": "nestgen",
+  "version": "0.0.1",
+  "description": "NestJS Generator",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "nestjs",
+    "generator",
+    "cli"
+  ],
+  "author": "Ahmad Arif <ahmad.arif019@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^2.4.2",
+    "change-case": "^3.1.0",
+    "figlet": "^1.2.1",
+    "fs-extra": "^7.0.1",
+    "handlebars": "^4.1.1",
+    "inquirer": "^6.2.2",
+    "pluralize": "^7.0.0"
+  },
+  "bin": "src/index.js"
+}

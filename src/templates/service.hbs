@@ -1,0 +1,8 @@
+import { Injectable } from '@nestjs/common';
+
+@Injectable()
+export class {{NamePascal}}Service {
+  async getHello(): Promise<string> {
+    return Promise.resolve('Hello world!');
+  }
+}

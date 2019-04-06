@@ -1,0 +1,9 @@
+import { Controller, Get } from '@nestjs/common';
+
+@Controller('{{ParamName}}')
+export class {{NamePascal}}Controller {
+  @Get()
+  async index() {
+    return { message: '{{NamePascal}}Controller' };
+  }
+}
