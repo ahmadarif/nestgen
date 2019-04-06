@@ -1,5 +1,5 @@
 {
-  "name": "nestgen",
+  "name": "@ahmadarif/nestgen",
   "version": "1.0.0",
   "description": "NestJS Generator",
   "main": "src/index.js",
