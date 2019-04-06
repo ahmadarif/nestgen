@@ -1,6 +1,6 @@
 {
   "name": "@ahmadarif/nestgen",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "NestJS Generator",
   "main": "src/index.js",
   "scripts": {

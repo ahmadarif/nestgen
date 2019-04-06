@@ -5,7 +5,7 @@
 
 # Installation
 ```bash
-$ npm install -g nestgen
+$ npm install -g @ahmadarif/nestgen
 ```
 
 # Usage
@@ -13,7 +13,7 @@ $ npm install -g nestgen
 $ nestgen   # follow the next instructions
 ```
 
-[npm-image]: https://img.shields.io/npm/v/nestgen.svg?style=flat
-[npm-url]: https://npmjs.org/package/nestgen
-[downloads-image]: https://img.shields.io/npm/dm/nestgen.svg?style=flat
-[downloads-url]: https://npmjs.org/package/nestgen
+[npm-image]: https://img.shields.io/npm/v/@ahmadarif/nestgen.svg?style=flat
+[npm-url]: https://npmjs.org/package/@ahmadarif/nestgen
+[downloads-image]: https://img.shields.io/npm/dm/@ahmadarif/nestgen.svg?style=flat
+[downloads-url]: https://npmjs.org/package/@ahmadarif/nestgen
