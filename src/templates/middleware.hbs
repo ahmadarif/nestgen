@@ -1,10 +1,8 @@
-import { Injectable, MiddlewareFunction, NestMiddleware } from '@nestjs/common';
+import { Injectable, NestMiddleware } from '@nestjs/common';
 
 @Injectable()
 export class {{NamePascal}}Middleware implements NestMiddleware {
-  resolve(...args: any[]): MiddlewareFunction {
-    return async (req: any, res: any, next: any) => {
-      next();
-    };
+  async use(req: any, res: any, next: any) {
+    next();
   }
 }

@@ -39,7 +39,7 @@ async function createFile(type, name) {
       break;
     case 'Model':
       fileInputPath = __dirname + '/templates/model.hbs';
-      fileOutputPath = `${process.cwd()}/src/models/${ChangeCase.paramCase(name)}.model.ts`;
+      fileOutputPath = `${process.cwd()}/src/models/${ChangeCase.paramCase(name)}.ts`;
       break;
     case 'DTO':
       fileInputPath = __dirname + '/templates/dto.hbs';
